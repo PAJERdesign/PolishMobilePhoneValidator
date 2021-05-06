@@ -9,7 +9,7 @@ use Symfony\Component\Config\FileLocator;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader;
 
-class PolishMobilePhoneValidatorExtension extends Extension
+class PolishMobilePhoneValidationExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {
