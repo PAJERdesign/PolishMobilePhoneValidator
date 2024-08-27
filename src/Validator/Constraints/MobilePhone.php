@@ -1,6 +1,6 @@
 <?php
 
-namespace PAJERdesign\PolishMobilePhoneValidator\Validator\Constraints;
+namespace PAJERdesign\PolishMobilePhoneValidatorBundle\Validator\Constraints;
 
 use Symfony\Component\Validator\Constraint;
 

@@ -5,7 +5,7 @@
     "keywords": ["symfony", "validation", "phone number", "mobile phone number"],
     "homepage": "http://pajerdesign.pl",
     "license": "MIT",
-    "version": "2.0.0",
+    "version": "2.0.2",
     "authors": [
         {
             "name": "Robert Pajer",
@@ -22,7 +22,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
-        "psr-4": { "PAJERdesign\\PolishMobilePhoneValidator\\": "src/" }
+        "psr-4": { "PAJERdesign\\PolishMobilePhoneValidatorBundle\\": "src/" }
     },
     "config": {
         "allow-plugins": {

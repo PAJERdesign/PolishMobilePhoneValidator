@@ -1,6 +1,6 @@
 <?php
 
-namespace PAJERdesign\PolishMobilePhoneValidator;
+namespace PAJERdesign\PolishMobilePhoneValidatorBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
