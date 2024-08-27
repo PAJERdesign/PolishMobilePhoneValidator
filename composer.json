@@ -5,7 +5,7 @@
     "keywords": ["symfony", "validation", "phone number", "mobile phone number"],
     "homepage": "http://pajerdesign.pl",
     "license": "MIT",
-    "version": "1.1.9",
+    "version": "2.0.0",
     "authors": [
         {
             "name": "Robert Pajer",
@@ -13,18 +13,25 @@
         }
     ],
     "require": {
-        "php": "^7.4|^8",
-        "symfony/framework-bundle": "~4.0|~5.0|~6.0",
-        "symfony/dependency-injection": "~4.0|~5.0|~6.0",
-        "symfony/validator": "~4.0|~5.0|~6.0",
+        "php": "^8.0",
+        "symfony/framework-bundle": "~6.0|~7.0",
+        "symfony/dependency-injection": "~6.0|~7.0",
+        "symfony/validator": "~6.0|~7.0",
         "ext-mbstring": "*"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
-        "psr-4": { "PAJERdesign\\PolishMobilePhoneValidator\\": "" }
+        "psr-4": { "PAJERdesign\\PolishMobilePhoneValidator\\": "src/" }
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": true
+        }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-master": "2.0-dev"
         }
     }
 }

@@ -7,6 +7,6 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 /**
  * @author Robert Pajer
  */
-class PolishMobilePhoneValidator extends Bundle
+final class PolishMobilePhoneValidator extends Bundle
 {
 }
